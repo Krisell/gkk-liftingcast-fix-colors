@@ -1,0 +1,21 @@
+{
+  "name": "GKK Liftingcast Fix Colors",
+  "description": "Fixes Liftingcast Board colors for displaying on black background",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "admin-panel.html",
+    "default_icon": {
+      "96": "/images/icon_96.png"
+    }
+  },
+  "icons": {
+    "96": "/images/icon_96.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://liftingcast.com/*"],
+      "js": ["fix-colors.js"]
+    }
+  ]
+}
