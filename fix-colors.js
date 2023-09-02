@@ -15,6 +15,7 @@ chrome.runtime.onMessage.addListener((display) => {
 
   .table-cell {
     background: white !important;
+    font-weight: bold;
   }
   `
 
