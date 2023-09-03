@@ -17,6 +17,10 @@ chrome.runtime.onMessage.addListener((display) => {
     background: white !important;
     font-weight: bold;
   }
+
+  .good, .bad, .current-lift {
+    color: white !important;
+  }
   `
 
   document.head.append(style)
